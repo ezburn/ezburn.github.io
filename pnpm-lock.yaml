@@ -1,0 +1,121 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      ezburn:
+        specifier: git+https://github.com/khulnasoft/ezburn.git#main
+        version: ezburn.git#main@https://codeload.github.com/khulnasoft/ezburn/tar.gz/20401427404ad3b0dfa19529d189a758d4b2d80d
+      fast-watch:
+        specifier: 1.0.0
+        version: 1.0.0
+      highlight.js:
+        specifier: 10.4.1
+        version: 10.4.1
+      js-yaml:
+        specifier: 3.14.0
+        version: 3.14.0
+      markdown-it:
+        specifier: 12.3.2
+        version: 12.3.2
+      polywasm:
+        specifier: 0.2.0
+        version: 0.2.0
+
+packages:
+
+  argparse@1.0.10:
+    resolution: {integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==}
+
+  argparse@2.0.1:
+    resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
+
+  entities@2.1.0:
+    resolution: {integrity: sha512-hCx1oky9PFrJ611mf0ifBLBRW8lUUVRlFolb5gWRfIELabBlbp9xZvrqZLZAs+NxFnbfQoeGd8wDkygjg7U85w==}
+
+  esprima@4.0.1:
+    resolution: {integrity: sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==}
+    engines: {node: '>=4'}
+    hasBin: true
+
+  ezburn.git#main@https://codeload.github.com/khulnasoft/ezburn/tar.gz/20401427404ad3b0dfa19529d189a758d4b2d80d:
+    resolution: {tarball: https://codeload.github.com/khulnasoft/ezburn/tar.gz/20401427404ad3b0dfa19529d189a758d4b2d80d}
+    version: 0.0.0
+
+  fast-watch@1.0.0:
+    resolution: {integrity: sha512-WrPvZ/HhuKCULVhnkQvltZ85a0VYYQqDU0u0TV94WRda/pZo4CTinETa7IaEwrAdmCHoZ6XsG04pe0FFtd6NtA==}
+    hasBin: true
+
+  highlight.js@10.4.1:
+    resolution: {integrity: sha512-yR5lWvNz7c85OhVAEAeFhVCc/GV4C30Fjzc/rCP0aCWzc1UUOPUk55dK/qdwTZHBvMZo+eZ2jpk62ndX/xMFlg==}
+
+  js-yaml@3.14.0:
+    resolution: {integrity: sha512-/4IbIeHcD9VMHFqDR/gQ7EdZdLimOvW2DdcxFjdyyZ9NsbS+ccrXqVWDtab/lRl5AlUqmpBx8EhPaWR+OtY17A==}
+    hasBin: true
+
+  linkify-it@3.0.3:
+    resolution: {integrity: sha512-ynTsyrFSdE5oZ/O9GEf00kPngmOfVwazR5GKDq6EYfhlpFug3J2zybX56a2PRRpc9P+FuSoGNAwjlbDs9jJBPQ==}
+
+  markdown-it@12.3.2:
+    resolution: {integrity: sha512-TchMembfxfNVpHkbtriWltGWc+m3xszaRD0CZup7GFFhzIgQqxIfn3eGj1yZpfuflzPvfkt611B2Q/Bsk1YnGg==}
+    hasBin: true
+
+  mdurl@1.0.1:
+    resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
+
+  polywasm@0.2.0:
+    resolution: {integrity: sha512-13Lg5S4fkF6onHsIeITWBnrPYhPe6iqdZCGJ8K+RAlL3qvGptPuWR4aQtULmbkGW2/XzXxWoHKlWsYRAvfcLnA==}
+
+  sprintf-js@1.0.3:
+    resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
+
+  uc.micro@1.0.6:
+    resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==}
+
+snapshots:
+
+  argparse@1.0.10:
+    dependencies:
+      sprintf-js: 1.0.3
+
+  argparse@2.0.1: {}
+
+  entities@2.1.0: {}
+
+  esprima@4.0.1: {}
+
+  ezburn.git#main@https://codeload.github.com/khulnasoft/ezburn/tar.gz/20401427404ad3b0dfa19529d189a758d4b2d80d: {}
+
+  fast-watch@1.0.0: {}
+
+  highlight.js@10.4.1: {}
+
+  js-yaml@3.14.0:
+    dependencies:
+      argparse: 1.0.10
+      esprima: 4.0.1
+
+  linkify-it@3.0.3:
+    dependencies:
+      uc.micro: 1.0.6
+
+  markdown-it@12.3.2:
+    dependencies:
+      argparse: 2.0.1
+      entities: 2.1.0
+      linkify-it: 3.0.3
+      mdurl: 1.0.1
+      uc.micro: 1.0.6
+
+  mdurl@1.0.1: {}
+
+  polywasm@0.2.0: {}
+
+  sprintf-js@1.0.3: {}
+
+  uc.micro@1.0.6: {}
