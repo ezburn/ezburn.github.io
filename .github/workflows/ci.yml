@@ -33,7 +33,7 @@ jobs:
           git config --global user.name 'example name'
 
       - name: npm ci
-        run: npm ci
+        run: npm ci || npm install
 
       - name: npm test
         run: npm test
