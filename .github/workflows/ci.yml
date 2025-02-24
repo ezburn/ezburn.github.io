@@ -32,8 +32,8 @@ jobs:
           git config --global user.email 'email@example.com'
           git config --global user.name 'example name'
 
-      - name: Install dependencies
-        run: npm ci || npm install
+      - name: npm ci
+        run: npm ci
 
-      - name: Run tests
+      - name: npm test
         run: npm test
