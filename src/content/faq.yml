@@ -35,9 +35,8 @@ body:
       garbage collectors, but Go's heap is shared between all threads while
       JavaScript has a separate heap per JavaScript thread. This seems to cut
       the amount of parallelism that's possible with JavaScript worker threads
-      in half [according to my testing](https://github.com/khulnasoft/ezburn/issues/111#issuecomment-719910381),
-      presumably since half of your CPU cores are busy collecting garbage for
-      the other half.
+      in half, presumably since half of your CPU cores are busy collecting garbage
+      for the other half.
       </p>
 
     - >
@@ -71,8 +70,7 @@ body:
       For example, many bundlers use the official TypeScript compiler as a
       parser. But it was built to serve the goals of the TypeScript compiler team
       and they do not have performance as a top priority. Their code makes pretty
-      heavy use of [megamorphic object shapes](https://mrale.ph/blog/2015/01/11/whats-up-with-monomorphism.html)
-      and unnecessary [dynamic property accesses](https://github.com/microsoft/TypeScript/issues/39247)
+      heavy use of megamorphic object shapes and unnecessary dynamic property accesses
       (both well-known JavaScript speed bumps). And the TypeScript parser
       appears to still run the type checker even when type checking is disabled.
       None of these are an issue with ezburn's custom TypeScript parser.
