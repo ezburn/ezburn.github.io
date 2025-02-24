@@ -13,6 +13,5 @@
     "serve": "ezburn --servedir=out --serve=127.0.0.1:8001",
     "build": "node src/scripts/render.js",
     "test": "node src/scripts/check.js"
-  },
-  "type": "module"
+  }
 }
