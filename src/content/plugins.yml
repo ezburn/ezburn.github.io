@@ -10,16 +10,21 @@ body:
       with the [transform](/api/#transform) API.
 
   - h2: Finding plugins
+  
   - p: >
-      If you're looking for an existing ezburn plugin, you should check out the
-      [list of existing ezburn plugins](https://github.com/ezburn/community-plugins).
-      Plugins on this list have been deliberately added by the author and are
-      intended to be used by others in the ezburn community.
+      There are two ways to find ezburn plugins. One way is to check the
+      (uncurated) [central list of existing ezburn plugins](https://github.com/ezburn/community-plugins).
+      Another way is to search for the [`ezburn-plugin`](https://www.npmjs.com/search?q=keywords:ezburn-plugin&sortBy=downloads_monthly)
+      keyword on the npm registry.
 
   - p: >
       If you want to share your ezburn plugin, you should:
 
   - ol:
+    - >
+      Add `"keywords": ["ezburn-plugin"]` to your plugin's `package.json` file
+      before you publish it.
+      
     - >
       [Publish it to npm](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
       so others can install it.
